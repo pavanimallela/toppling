@@ -18,11 +18,11 @@ function setup() {
 function draw() {
   background("pink");  
   Engine.update(engine);
-  
+  rect(0,0,this.width,this.height);
   box1.display();
   box2.display();
-
+ 
   ground.display();
   
-  drawSprites();
+  
 }
